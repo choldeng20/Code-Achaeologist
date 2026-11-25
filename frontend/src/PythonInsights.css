@@ -1,0 +1,87 @@
+.python-insights {
+  display: grid;
+  gap: 20px;
+  margin: 24px 0;
+  padding: 20px 0;
+  border-top: 1px solid #273449;
+  border-bottom: 1px solid #273449;
+}
+
+.python-docstring-summary {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 10px;
+  color: #94a3b8;
+}
+
+.python-docstring-summary strong {
+  color: #a5b4fc;
+  font-size: 20px;
+}
+
+.python-insight-section h3 {
+  margin: 0 0 10px;
+}
+
+.python-insight-table-wrap {
+  overflow-x: auto;
+  border: 1px solid #273449;
+  border-radius: 8px;
+}
+
+.python-insight-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  text-align: left;
+}
+
+.python-insight-table th,
+.python-insight-table td {
+  padding: 9px 12px;
+  border-bottom: 1px solid #273449;
+}
+
+.python-insight-table th {
+  color: #94a3b8;
+  font-weight: 600;
+}
+
+.python-insight-table td {
+  color: #e5e7eb;
+}
+
+.python-insight-table td:nth-child(2) {
+  overflow-wrap: anywhere;
+  color: #a5b4fc;
+  font-family: ui-monospace, Consolas, monospace;
+}
+
+.python-insight-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.python-import-list {
+  display: grid;
+  gap: 7px;
+  margin: 0;
+  padding-left: 24px;
+}
+
+.python-import-list li {
+  padding-left: 3px;
+  color: #cbd5e1;
+}
+
+.python-import-list li span:last-child {
+  margin-left: 10px;
+  color: #94a3b8;
+  font-size: 12px;
+}
+
+.python-insight-empty {
+  margin: 0;
+  color: #94a3b8;
+  font-size: 13px;
+}
